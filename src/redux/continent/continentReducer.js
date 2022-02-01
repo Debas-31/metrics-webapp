@@ -6,12 +6,13 @@ const initialState = [];
 export const getContinent = () => async (dispatch) => {
   let theContinent = await fetchCovidData();
   theContinent = theContinent.filter((item) => item.continent === 'North America');
-  console.log('theContinent', theContinent);
+
   const mappedData = theContinent.map(({ countryInfo: { _id: id, flag }, ...item }) => ({
-    continent: item.continent,
     country: item.country,
-    description: item.cases,
-    deaths: item.deaths,
+    description1: item.cases,
+    description2: item.active,
+    description3: item.tests,
+    description4: item.population,
     countryFlag: flag,
     countryID: id,
   }));
