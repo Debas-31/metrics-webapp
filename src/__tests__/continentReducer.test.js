@@ -1,4 +1,4 @@
-import reducer, { GET_CONTINENT } from '../redux/continent/continentReducer'
+import reducer, { GET_CONTINENT } from '../redux/continent/continentReducer';
 
 describe('test the reducer function for the store', () => {
   test('reducer returns new state', () => {

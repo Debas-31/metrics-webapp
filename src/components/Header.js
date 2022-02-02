@@ -1,7 +1,7 @@
 import { Link, useMatch } from 'react-router-dom';
 import { BsFillBackspaceFill } from 'react-icons/bs';
 import { FiSettings } from 'react-icons/fi';
-import { BiMicrophone } from 'react-icons/bi'
+import { BiMicrophone } from 'react-icons/bi';
 
 const Header = () => {
   const match = useMatch('/country/:name');
