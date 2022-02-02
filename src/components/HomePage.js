@@ -14,7 +14,7 @@ const HomePage = () => {
     <>
       <Header />
       <div className="MainContainer">
-        <input className="search" placeholder="Search Country ..." value={search} onChange={(e) => setSearch(e.target.value)} />
+        <input className="Search" placeholder="Search Country ..." value={search} onChange={(e) => setSearch(e.target.value)} />
         <section className="CountryContainer">
           {filteredCountries.map((item) => (
             <Link

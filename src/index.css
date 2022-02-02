@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -10,5 +12,152 @@
   left: 0;
   width: 100%;
   height: 3rem;
-  background-color: rgb(214, 76, 76);
+  background-color: rgb(83, 115, 150);
+}
+
+.NavBarContainer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.NavBarContainer input {
+  width: 33%;
+  margin-top: -1rem;
+}
+
+.MainContainer {
+  position: absolute;
+  z-index: -1;
+  top: 3rem;
+  left: 0;
+  width: 100%;
+}
+
+.Search {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.CountryContainer {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  height: 11rem;
+  background-color: rgb(43, 132, 233);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.Container:nth-child(4n),
+.Container:nth-child(4n+1) {
+  background-color: rgb(49, 72, 97);
+}
+
+.Container img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.Container .Name {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.Icon {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  color: rgb(158, 194, 235);
+}
+
+.NorthAmerica {
+  justify-content: flex-end;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  color: #fff;
+  margin-top: 0.3rem;
+}
+
+.NorthSetting {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #fff;
+}
+
+.NorthData {
+  display: flex;
+  text-align: center;
+  margin-right: 1rem;
+  font-size: 1rem;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+.DetailContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(49, 72, 97);
+  height: 51rem;
+}
+
+.DetailContainer .Name {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.DetailContainer span {
+  font-size: 1.4rem;
+  color: rgb(245, 245, 250);
+}
+
+.Critical {
+  text-decoration: none;
+  color: #fff;
+}
+
+.Setting {
+  width: 20%;
+}
+
+.Microphone {
+  width: 60%;
+}
+
+.Country {
+  padding-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  .Container img {
+    width: 25%;
+    height: 60%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .Container img {
+    width: 20%;
+    height: 70%;
+  }
 }
