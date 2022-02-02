@@ -23,6 +23,7 @@ const HomePage = () => {
               className="Container"
             >
               <h2 className="Name">{item.country}</h2>
+              <h2 className="Critical">{item.critical}</h2>
               <img src={item.countryFlag} alt="country flag" />
               <h2>{item.id}</h2>
             </Link>
