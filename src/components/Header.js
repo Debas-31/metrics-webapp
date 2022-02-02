@@ -1,5 +1,7 @@
 import { Link, useMatch } from 'react-router-dom';
 import { BsFillBackspaceFill } from 'react-icons/bs';
+import { FiSettings } from 'react-icons/fi';
+import { BiMicrophone } from 'react-icons/bi'
 
 const Header = () => {
   const match = useMatch('/country/:name');
@@ -11,9 +13,10 @@ const Header = () => {
             <BsFillBackspaceFill className="Icon" />
           </Link>
         )}
-        <div>
-          <h1 className="NorthAmerica">Covid-19 Data for</h1>
-          <h2 className="NorthAmericaData">North America Countries</h2>
+        <div className="NorthSetting">
+          <h2 className="NorthData">North America Countries</h2>
+          <BiMicrophone className="Microphone" size="1.5rem" />
+          <FiSettings className="Setting" size="1.5rem" />
         </div>
       </div>
     </nav>
