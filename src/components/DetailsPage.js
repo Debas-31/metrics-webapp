@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
-import { useParams } from "react-router";
-import { fetchCovidDataByCountry } from "../redux/Api";
-import Header from "./Header";
+import { useEffect, useState } from 'react';
+import { useParams } from 'react-router';
+import { fetchCovidDataByCountry } from '../redux/Api';
+import Header from './Header';
 
 const DetailsPage = () => {
   const { name } = useParams();
