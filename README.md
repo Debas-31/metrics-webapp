@@ -4,8 +4,12 @@
 
 > A web application that checks a list of metrics created the data fetched from a covid 19 API for countries in North America.This project applies HTML, CSS, and JavaScript best practices using React/Redux library and is fully responsive.
 
+
 ## ScreenShoot
- > ![screenshot](./public/bookStoreScreenShoot.png)
+### Home Page
+ > ![screenshot](./image/HomePage.png)
+### Detail page
+ >![screenshot](./image/DetailPage.png)
 ## Built With
 
 - HTML
@@ -14,8 +18,11 @@
 - React
 - Redux
 
-## Live Demo
-- Deploying using [Netlify]()
+## Project documentation
+>[Loom Video]()
+
+>Deploying using [Netlify](https://covid-19-metrics-webapp.netlify.app/)
+  
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -80,8 +87,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
+- Inspiration Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29)
 - React Community 
-- 
 
 ## 📝 License
 
