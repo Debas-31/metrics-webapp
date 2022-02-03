@@ -14,7 +14,7 @@ const Header = () => {
           </Link>
         )}
         <div className="NorthSetting">
-          <h2 className="NorthData">North America Countries</h2>
+          <h2 className="NorthData">COVID19 statistics</h2>
           <BiMicrophone className="Microphone" size="1.5rem" />
           <FiSettings className="Setting" size="1.5rem" />
         </div>

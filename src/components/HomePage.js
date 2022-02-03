@@ -2,6 +2,7 @@ import { useSelector } from 'react-redux';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Header from './Header';
+import Banner from '../image/Banner.png';
 
 const HomePage = () => {
   const [search, setSearch] = useState('');
@@ -14,7 +15,22 @@ const HomePage = () => {
     <>
       <Header />
       <div className="MainContainer">
-        <input className="Search" placeholder="Search Country ..." value={search} onChange={(e) => setSearch(e.target.value)} />
+        <div className="Banner">
+          <img src={Banner} alt="COVID19" className="Container" />
+          <div className="BannerDiv">
+            <h2 className="BannerText">
+              North America
+              <br />
+              Countries
+            </h2>
+          </div>
+        </div>
+        <input
+          className="Search"
+          placeholder="Search Country ..."
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+        />
         <section className="CountryContainer">
           {filteredCountries.map((item) => (
             <Link
