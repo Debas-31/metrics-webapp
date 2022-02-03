@@ -7,9 +7,9 @@
 
 ## ScreenShoot
 ### Home Page
- > ![screenshot](./image/HomePage.png)
+ > ![screenshot](./src/image/HomePage.png)
 ### Detail page
- >![screenshot](./image/DetailPage.png)
+ >![screenshot](./src/image/DetailPage.png)
 ## Built With
 
 - HTML

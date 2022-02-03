@@ -15,6 +15,6 @@ describe('test for the HomePage', () => {
         wrapper: MemoryRouter,
       },
     );
-    expect(screen.getByText('North America Countries')).toBeInTheDocument();
+    expect(screen.getByText('COVID19 statistics')).toBeInTheDocument();
   });
 });

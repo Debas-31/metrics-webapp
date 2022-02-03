@@ -17,11 +17,12 @@ const DetailsPage = () => {
     <>
       {state ? (
         <div className="DetailContainer">
-          <div>
-            <Header />
-            <h2 className="Country">{state.country}</h2>
-            <img src={state.countryInfo.flag} alt="country flag" />
-            <h2 className="Name">{state.name}</h2>
+          <Header />
+          <div className="CountryDetail">
+            <div className="NameImg">
+              <h2 className="Country">{state.country}</h2>
+              <img src={state.countryInfo.flag} alt="country flag" />
+            </div>
             <h2 className="Name">
               <span>Population : </span>
               {state.population.toLocaleString()}
