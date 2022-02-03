@@ -27,7 +27,7 @@ const DetailsPage = () => {
               {state.population.toLocaleString()}
             </h2>
             <h2 className="Name">
-              <span>Class : </span>
+              <span>Cases : </span>
               {state.cases.toLocaleString()}
             </h2>
             <h2 className="Name">
