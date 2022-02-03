@@ -19,7 +19,7 @@
 - Redux
 
 ## Project documentation
->[Loom Video]()
+>[Loom Video](https://loom.com/share/ebe8091ffee842d38ef7e2b62f037989)
 
 >Deploying using [Netlify](https://covid-19-metrics-webapp.netlify.app/)
   
